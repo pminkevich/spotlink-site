@@ -23,6 +23,10 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about', { title: 'About' });
 });
+// end routes
+
+
+
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
