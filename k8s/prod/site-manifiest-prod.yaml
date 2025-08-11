@@ -14,7 +14,7 @@ spec:
         app: spotlink-web
     spec:
       nodeSelector:
-        environment: dev
+        env: dev
       containers:
       - name: web
         image: 440744234807.dkr.ecr.us-east-1.amazonaws.com/spotlink/web:latest
